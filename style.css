@@ -6,6 +6,8 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
 .container{
     max-width: 384px;
     max-height: 522px;
@@ -13,16 +15,65 @@ body{
     padding: 24px;
     border-radius: 20px;
     text-align: left;
-}
-img{
-    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px black;
+    border: 1px solid black;
+
 }
 /* Unfinished */
-h1{
-    max-width: 82px;
-    max-height: 29px;
-    background-color:hsl(47, 88%, 63%);
-    border-radius: 4px;
-    padding: 12px;
-  
+.bigPic{
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 200px;
 }
+.title{
+    background-color: hsl(47, 88%, 63%) ;
+    width:auto;
+    height: auto;
+    display:inline-block;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.title h1{
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(240, 100%, 5%);
+    margin:0;
+}
+.textContent{
+    flex-wrap: wrap;
+    max-width: 336px;
+
+}
+.textContent p2{
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+    margin-top: 12px;
+    line-height: 1.5;
+}
+.avatarSection{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 12px;
+}
+.avatarSection img{
+    max-width: 32px;
+    max-height: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.avatarSection p{
+    font-size: 14px;
+    color: hsl(240, 100%, 5%);
+    font-weight: 700;
+}
+.container:hover{
+    cursor: url(assets/images/Pointer.png), pointer;
+}
+
